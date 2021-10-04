@@ -7,7 +7,7 @@ disqusShortname: ''
 params:
   banner:
     buttonText: Get Started
-    subtitle: |- A portfolio for a Data Analytics for Finance course.
+    #subtitle: |- A portfolio for a Data Analytics for Finance course.
       A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP
       AND RELEASED UNDER THE CREATIVE COMMONS.
     title: Hi, my name is Lindsey Zastawny
