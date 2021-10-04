@@ -1,31 +1,31 @@
 baseURL: http://example.org/
 languageCode: en-us
-title: Forty
+title: Portfolio Website for Lindsey Zastawny
 theme: forty
 googleAnalytics: ''
 disqusShortname: ''
 params:
   banner:
     buttonText: Get Started
-    subtitle: |-
+    subtitle: |- A portfolio for a Data Analytics for Finance course.
       A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP
       AND RELEASED UNDER THE CREATIVE COMMONS.
-    title: Hi, my name is Forty
+    title: Hi, my name is Lindsey Zastawny
   blog: {}
   contact:
     address:
-      - city: City, ST 00000
-        country: Country
-        street: Street
+      - city: London, NW8 6LW
+        country: United Kingdom
+        street: Baker Street
         title: Address
     buttonClear: Clear
     buttonSend: Send message
     email:
-      - email: example@domain.com
+      - email: lzastawny.mfa2022@london.edu
         title: Email
     enable: yes
     phone:
-      - phone: (000) 000-0000 x1234
+      - phone: (630) 501-5033 x1234
         title: Phone
   custom_css: []
   custom_js: []
@@ -56,7 +56,7 @@ params:
         url: https://www.github.com
       - icon: fa-linkedin
         label: LinkedIn
-        url: https://www.linkedin.com
+        url: https://www.linkedin.com/in/lindsey-zastawny/
   image: ''
   name: Your name
   navigation:
