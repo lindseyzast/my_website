@@ -1,4 +1,4 @@
-baseURL: http://example.org/
+baseURL: https://lindseyzastawny.netlify.app/
 languageCode: en-us
 title: Portfolio Website for Lindsey Zastawny
 theme: forty
@@ -7,9 +7,8 @@ disqusShortname: ''
 params:
   banner:
     buttonText: Get Started
-    #subtitle: |- A portfolio for a Data Analytics for Finance course.
-      A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP
-      AND RELEASED UNDER THE CREATIVE COMMONS.
+    subtitle: |- 
+     A portfolio for a Data Analytics for Finance course.
     title: Hi, my name is Lindsey Zastawny
   blog: {}
   contact:
