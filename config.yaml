@@ -80,10 +80,10 @@ params:
   tiles:
     enable: yes
     showcase:
-      - image: uga_arch.jpg
+      - image: pic01.jpg
         subtitle: A short introduction
         title: About Lindsey
-        url: projects/uga_arch
+        url: blogs/bio
       - image: pic02.jpg
         subtitle: Feugiat Amet Tempus
         title: Tempus
