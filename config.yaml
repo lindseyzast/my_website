@@ -8,14 +8,14 @@ params:
   banner:
     buttonText: Get Started
     subtitle: |- 
-     Portfolio for a Data Analytics for Finance course.
+     This is my webpage and Data Analytics portfolio.
     title: Hi, my name is Lindsey Zastawny
   blog: {}
   contact:
     address:
-      - city: London, NW8 6LW
+      - city: London
         country: United Kingdom
-        street: Baker Street
+        street:
         title: Address
     buttonClear: Clear
     buttonSend: Send message
