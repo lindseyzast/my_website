@@ -83,7 +83,7 @@ params:
       - image: pic01.jpg
         subtitle: A short introduction
         title: About Lindsey
-        url: blogs/Aliquam
+        url: blogs/bio
       - image: pic02.jpg
         subtitle: College and Beyond
         title: Sailing Experience
