@@ -8,7 +8,7 @@ params:
   banner:
     buttonText: Get Started
     subtitle: |- 
-     A portfolio for a Data Analytics for Finance course.
+     Portfolio for a Data Analytics for Finance course.
     title: Hi, my name is Lindsey Zastawny
   blog: {}
   contact:
@@ -52,7 +52,7 @@ params:
         url: https://www.instagram.com
       - icon: fa-github
         label: GitHub
-        url: https://www.github.com
+        url: https://github.com/lindseyzast
       - icon: fa-linkedin
         label: LinkedIn
         url: https://www.linkedin.com/in/lindsey-zastawny/
