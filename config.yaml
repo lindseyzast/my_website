@@ -6,7 +6,7 @@ googleAnalytics: ''
 disqusShortname: ''
 params:
   banner:
-    buttonText: Get Started
+    buttonText: Get to Know Me!
     subtitle: |- 
      This is my webpage and Data Analytics portfolio.
     title: Hi, my name is Lindsey Zastawny
@@ -85,8 +85,8 @@ params:
         title: About Lindsey
         url: blogs/bio
       - image: pic02.jpg
-        subtitle: Feugiat Amet Tempus
-        title: Tempus
+        subtitle: College and Beyond
+        title: Sailing Experience
         url: blogs/tempus
       - image: pic03.jpg
         subtitle: Lorem Etiam Nullam
