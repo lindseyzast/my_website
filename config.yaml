@@ -96,14 +96,14 @@ params:
         subtitle: Nisl Sed Aliquam
         title: Ipsum
         url: blogs/ipsum
-      - image: pic05.jpg
-        subtitle: Ipsum Dolor Sit Amet
-        title: Consequat
-        url: blogs/ipsum
-      - image: pic06.jpg
-        subtitle: Feugiat Amet Tempus
-        title: Etiam
-        url: blogs/ipsum
+    #  - image: pic05.jpg
+     #   subtitle: Ipsum Dolor Sit Amet
+      #  title: Consequat
+       # url: blogs/ipsum
+    #  - image: pic06.jpg
+     #   subtitle: Feugiat Amet Tempus
+      #  title: Etiam
+       # url: blogs/ipsum
  # two:
    # buttonText: Get Started
   #  enable: yes
