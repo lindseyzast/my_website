@@ -15,5 +15,6 @@ Lindsey only began sailing during her undergraduate degree at the University of 
 
 While Lindsey has only been sailing for a little over three years, she is a quick learner and enjoys getting out on the water as much as she can. The club sailing team at UGA practiced at [Lake Lanier Sailing Club](<https://www.llsc.com/>) located in Flowery Branch, GA. Lindsey raced competitively in the SAISA conference, mainly competing in 420s and FJs. As part of the SAISA conference, Lindsey would travel to Florida, South Carolina, North Carolina, and Tennessee for regattas. One of Lindsey's proudest moments was being selected for the SAISA Women's Champs regatta in the second semester of her first year on the team. While at LBS, Lindsey hopes to get more experience on larger boats in both racing and cruising atmospheres.
 
+```{r}
 knitr::include_graphics("/img/lbssailing.jpeg",error =FALSE)
-
+```
