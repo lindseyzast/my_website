@@ -28,6 +28,6 @@ options(digits = 3)
 
 
 
-```{r, out.width = "400px"}
+```{r echo=FALSE, out.width=}
 knitr::include_graphics("/img/lbssailing.jpeg",error = FALSE)
 ```
