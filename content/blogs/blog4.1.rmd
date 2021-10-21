@@ -49,7 +49,7 @@ library(infer)
 windows(width = 12, height = 10)
 ```
 
-```{r}
+```{r, out.width="30%"}
 knitr::include_graphics("Users/15z970/Documents/Grad School/LBS/Data Analytics/R Repository/my_website/static/img/ZastawnyLindsey.jpg",error=FALSE)
 ```
 
