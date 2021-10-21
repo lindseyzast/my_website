@@ -16,3 +16,6 @@ Originally from Chicago, Lindsey Zastawny is currently reading for a Masters in 
 This past spring, Lindsey graduated *summa cum laude* with honors from the University of Georgia, where she obtained a B.B.A. in Finance and completed a Sustainability Certificate. To take a look at Lindsey's certificate portfolio please click [here](<https://ctlsites.uga.edu/sustainability-lindseyzastawny/>). While at UGA, Lindsey was heavily involved in the club sailing team, as well as Alpha Phi Fraternity, Counterpoint Dance Company, and Women in Finance.
 
 This past summer before coming to LBS, Lindsey interned in the leveraged finance group at Aegon Asset Management. During this 11-week internship, she completed rotations through various groups including High Yield, Emerging Markets, Private Equity, and Distressed/Special Sits. The projects she completed revolved mainly around research, data analysis, and ESG policy. After graduation, Lindsey plans to work within investment research or capital markets.
+
+![Me](/my_website/static/img/blogs/ZastawnyLindsey.jpg)
+
