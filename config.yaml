@@ -68,12 +68,12 @@ params:
     links:
       - name: Home
         url: 'https://lindseyzastawny.netlify.app/'
-      - name: Blogs
-        url: blogs
-      - name: Generic Blog
-        url: blogs/ipsum
-      - name: Elements
-        url: elements.html
+      - name: About Me!
+        url: blogs/bio
+      - name: My Other Website!
+        url: https://ctlsites.uga.edu/sustainability-lindseyzastawny/
+     # - name: Elements
+      #  url: elements.html
     menu: Menu
    # subtitle: By HTML5 Up
    # title: Forty
