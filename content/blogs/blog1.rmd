@@ -68,6 +68,7 @@ Task: Explore whether the mean IMDB rating for Steven Spielberg and Tim Burton a
 > Before anything, write down the null and alternative hypotheses, as well as the resulting test statistic and the associated t-stat or p-value. At the end of the day, what do you conclude?
 
 Null: Burton and Spielberg have the same mean rating
+
 Alt: Burton and Spielberg have statistically different mean ratings
 
 The resulting t-stat was equal to 3, larger than the critical value of 1.96. And the p-value was equal to 0.01, less than 0.05. Additionally, the resulting 95% confidence interval was 0.16, 1.13, which does not include zero. In conclusion, all of these statistics tell us to *reject* the null hypothesis, and that Burton and Spielberg have statistically different mean ratings.
@@ -93,10 +94,6 @@ burton_spielberg <- movies %>%
 
 burton_spielberg
 
-
-burton_spielberg %>% 
-  mutate(
-    director=fct_reorder(director, mean_rating)) %>% 
 
 #Recreate graph
 ggplot(burton_spielberg, aes(x=mean_rating, color=director)) +
