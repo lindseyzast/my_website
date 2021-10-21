@@ -27,6 +27,6 @@ options(digits = 3)
 
 ```
 
-```{r echo=FALSE, out.width=}
+```{r echo=FALSE, out.width="500px"}
 knitr::include_graphics("/img/ugagraduation.jpeg",error = FALSE)
 ```
