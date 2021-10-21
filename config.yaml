@@ -23,8 +23,8 @@ params:
       - email: lzastawny.mfa2022@london.edu
         title: Email
     enable: yes
-  #  phone:
-   #   - phone: (630) 501-5033 x1234
+    phone:
+      - phone: Please email Lindsey for further contact information.
    #     title: Phone
   custom_css: []
   custom_js: []
