@@ -7,7 +7,7 @@ description: Using R to look at trends in climate change.
 draft: false
 #image: pic09.jpg
 keywords: ""
-slug: climateanalysis
+#slug: climateanalysis
 title: Climate Change Analysis in R
 ---
 
