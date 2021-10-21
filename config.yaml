@@ -17,8 +17,8 @@ params:
         country: United Kingdom
         street:
         title: Address
-    buttonClear: Clear
-    buttonSend: Send message
+   # buttonClear: Clear
+  #  buttonSend: Send message
     email:
       - email: lzastawny.mfa2022@london.edu
         title: Email
@@ -84,7 +84,7 @@ params:
         subtitle: A short introduction
         title: About Lindsey
         url: blogs/bio
-      - image: boats.jpg
+      - image: boats.jpeg
         subtitle: College and Beyond
         title: Sailing Experience
         url: blogs/sailing
