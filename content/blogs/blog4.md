@@ -7,7 +7,7 @@ description: Lindsey Zastawny's Bio
 draft: false
 # image: pic07.jpg
 keywords: ""
-slug: bio
+slug: basic
 title: All About Lindsey
 ---
 

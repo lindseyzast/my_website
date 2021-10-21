@@ -17,7 +17,39 @@ This past spring, Lindsey graduated *summa cum laude* with honors from the Unive
 
 This past summer before coming to LBS, Lindsey interned in the leveraged finance group at Aegon Asset Management. During this 11-week internship, she completed rotations through various groups including High Yield, Emerging Markets, Private Equity, and Distressed/Special Sits. The projects she completed revolved mainly around research, data analysis, and ESG policy. After graduation, Lindsey plans to work within investment research or capital markets.
 
+
+```{r, setup, include=FALSE}
+knitr::opts_chunk$set(
+  message = FALSE, 
+  warning = FALSE, 
+  tidy=FALSE,     # display code as typed
+  size="small")   # slightly smaller font for code
+options(digits = 3)
+
+# default figure size
+knitr::opts_chunk$set(
+  fig.width=6.75, 
+  fig.height=6.75,
+  fig.align = "center"
+)
+```
+
+```{r load-libraries, include=FALSE}
+library(tidyverse)  # Load ggplot2, dplyr, and all the other tidyverse packages
+library(mosaic)
+library(ggthemes)
+library(lubridate)
+library(here)
+library(skimr)
+library(janitor)
+library(httr)
+library(readxl)
+library(vroom)
+library(infer)
+windows(width = 12, height = 10)
+```
+
 ```{r}
-knitr::include_graphics("Users/15z970/Documents/Grad School/LBS/Data Analytics/R Repository/my_website/static/img/ZastawnyLindsey.jpg",error =FALSE)
+knitr::include_graphics("Users/15z970/Documents/Grad School/LBS/Data Analytics/R Repository/my_website/static/img/ZastawnyLindsey.jpg",error=FALSE)
 ```
 
