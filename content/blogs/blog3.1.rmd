@@ -47,6 +47,8 @@ library(infer)
 windows(width = 12, height = 10)
 ```
 
-```{r}
-knitr::include_graphics("Users/15z970/Documents/Grad School/LBS/Data Analytics/R Repository/my_website/static/img/lbssailing.jpeg",error =FALSE)
+```{r, include=FALSE}
+knitr::include_graphics("Users/15z970/Documents/Grad School/LBS/Data Analytics/R Repository/my_website/static/img/lbssailing.jpeg",error=FALSE)
+
+knitr::include_graphics("Users/15z970/Documents/Grad School/LBS/Data Analytics/R Repository/my_website/static/img/ugasailing.jpg",error=FALSE)
 ```
