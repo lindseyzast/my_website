@@ -9,14 +9,6 @@ draft: false
 keywords: ""
 slug: climateanalysis
 title: Climate Change Analysis in R
----
-
-Over the last five weeks, Lindsey has been in a "Data Analytics for Finance" course. This course focused on statistical analysis and visual output utilizing the R programming language. In this specific assignment, Lindsey looked at historical weather data to uncover trends and anomalies. This included making graphs that looked at changes in temperature by month and creating a density plot to understand how the average temperature has changed over the past few decades.
-
----
-title: "Session 4: Homework 2"
-author: "Lindsey Zastawny, Lukas Kugler, Gautam Sreekumar, Aneta Kajdzinska, Danqing Huang, Shuyi Guo"
-date: "`r Sys.Date()`"
 output:
   html_document:
     theme: flatly
@@ -26,6 +18,10 @@ output:
     toc_float: yes
     code_folding: show
 ---
+
+Over the last five weeks, Lindsey has been in a "Data Analytics for Finance" course. This course focused on statistical analysis and visual output utilizing the R programming language. In this specific assignment, Lindsey looked at historical weather data to uncover trends and anomalies. This included making graphs that looked at changes in temperature by month and creating a density plot to understand how the average temperature has changed over the past few decades.
+
+
 
 ```{r, setup, include=FALSE}
 knitr::opts_chunk$set(
