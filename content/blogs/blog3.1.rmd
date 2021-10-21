@@ -32,21 +32,8 @@ knitr::opts_chunk$set(
 )
 ```
 
-```{r load-libraries, include=FALSE}
-library(tidyverse)  # Load ggplot2, dplyr, and all the other tidyverse packages
-library(mosaic)
-library(ggthemes)
-library(lubridate)
-library(here)
-library(skimr)
-library(janitor)
-library(httr)
-library(readxl)
-library(vroom)
-library(infer)
-windows(width = 12, height = 10)
-```
 
-```{r}
+
+```{r, out.width = "400px"}
 knitr::include_graphics("Users/15z970/Documents/Grad School/LBS/Data Analytics/R Repository/my_website/static/img/lbssailing.jpeg",error = FALSE)
 ```
