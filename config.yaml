@@ -17,8 +17,8 @@ params:
         country: United Kingdom
         street:
         title: Address
-   # buttonClear: Clear
-  #  buttonSend: Send message
+    buttonClear: Clear
+    buttonSend: Send message
     email:
       - email: lzastawny.mfa2022@london.edu
         title: Email
