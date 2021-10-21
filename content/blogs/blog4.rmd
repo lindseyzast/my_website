@@ -17,6 +17,7 @@ This past spring, Lindsey graduated *summa cum laude* with honors from the Unive
 
 This past summer before coming to LBS, Lindsey interned in the leveraged finance group at Aegon Asset Management. During this 11-week internship, she completed rotations through various groups including High Yield, Emerging Markets, Private Equity, and Distressed/Special Sits. The projects she completed revolved mainly around research, data analysis, and ESG policy. After graduation, Lindsey plans to work within investment research or capital markets.
 
-knitr::include_graphics("/img/ZastawnyLindsey.jpg",error =FALSE)
-
+```{r}
+knitr::include_graphics("Users/15z970/Documents/Grad School/LBS/Data Analytics/R Repository/my_website/static/img/ZastawnyLindsey.jpg",error =FALSE)
+```
 
