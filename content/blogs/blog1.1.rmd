@@ -73,11 +73,13 @@ Alt: Burton and Spielberg have statistically different mean ratings
 
 The resulting t-stat was equal to 3, larger than the critical value of 1.96. And the p-value was equal to 0.01, less than 0.05. Additionally, the resulting 95% confidence interval was 0.16, 1.13, which does not include zero. In conclusion, all of these statistics tell us to *reject* the null hypothesis, and that Burton and Spielberg have statistically different mean ratings.
 
+Glimpse the Data
 ```{r load-movies-data}
 movies <- read_csv(here::here("data", "movies.csv"))
 glimpse(movies)
 ```
 
+Create the additional summary statistics.
 ```{r}
 #Create necessary data
 burton_spielberg <- movies %>% 
@@ -93,8 +95,10 @@ burton_spielberg <- movies %>%
             higher = mean_rating+margin_of_error)
 
 burton_spielberg
+```
 
-
+Create the graph.
+```{r}
 #Recreate graph
 ggplot(burton_spielberg, aes(x=mean_rating, color=director)) +
   #add shaded region for where intervals overlap
@@ -123,7 +127,7 @@ ggplot(burton_spielberg, aes(x=mean_rating, color=director)) +
 
 ```
 
-
+Run hypothesis tests.
 ```{r, rating_hypothesistest}
 #Create smaller data set 
 small_data <- movies %>% 
@@ -149,9 +153,10 @@ ratings_in_null_world <- small_data %>%
 ratings_in_null_world %>% visualize()
 ratings_in_null_world %>% 
   get_pvalue(obs_stat = 0.64, direction = "both")
+```
 
-
+```{r}
 #conduct hypothesis test (t.test method)
 t.test(rating ~ director, data=small_data)
-
+```
 ```
