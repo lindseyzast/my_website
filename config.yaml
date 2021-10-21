@@ -91,11 +91,11 @@ params:
       - image: pic03.jpg
         subtitle: Using R to Observe Trends in Climate Change
         title: Climate Change Analysis
-        url: blogs/magna
+        url: blogs/climateanalysis
       - image: pic04.jpg
-        subtitle: Nisl Sed Aliquam
-        title: Ipsum
-        url: blogs/ipsum
+        subtitle: Using R to Look for Statistical Significance 
+        title: IMDB Ratings by Director
+        url: blogs/IMDBratings
     #  - image: pic05.jpg
      #   subtitle: Ipsum Dolor Sit Amet
       #  title: Consequat

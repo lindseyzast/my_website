@@ -3,10 +3,10 @@ categories:
 - ""
 - ""
 date: "2017-10-31T22:26:09-05:00"
-description: Lorem Etiam Nullam
+description: Using R to look at trends in climate change.
 draft: false
 image: pic09.jpg
 keywords: ""
-slug: magna
-title: Magna
+slug: climateanalysis
+title: Climate Change Analysis in R
 ---
