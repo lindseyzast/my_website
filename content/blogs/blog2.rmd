@@ -77,7 +77,7 @@ glimpse(tidyweather)
 ## Plotting Information
 
 
-```{r scatter_plot}
+```{r scatter_plot, echo=TRUE}
 
 #create new variable
 tidyweather <- tidyweather %>%
