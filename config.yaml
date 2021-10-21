@@ -89,8 +89,8 @@ params:
         title: Sailing Experience
         url: blogs/sailing
       - image: pic03.jpg
-        subtitle: Lorem Etiam Nullam
-        title: Magna
+        subtitle: Using R to Observe Trends in Climate Change
+        title: Climate Change Analysis
         url: blogs/magna
       - image: pic04.jpg
         subtitle: Nisl Sed Aliquam
