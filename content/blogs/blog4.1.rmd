@@ -28,5 +28,5 @@ options(digits = 3)
 ```
 
 ```{r echo=FALSE, out.width=}
-knitr::include_graphics("/img/ZastawnyLindsey.jpg",error = FALSE)
+knitr::include_graphics("/img/ugagraduation.jpeg",error = FALSE)
 ```
