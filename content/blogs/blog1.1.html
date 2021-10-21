@@ -24,6 +24,7 @@ title: Statistical Analysis in R
 <p>Null: Burton and Spielberg have the same mean rating</p>
 <p>Alt: Burton and Spielberg have statistically different mean ratings</p>
 <p>The resulting t-stat was equal to 3, larger than the critical value of 1.96. And the p-value was equal to 0.01, less than 0.05. Additionally, the resulting 95% confidence interval was 0.16, 1.13, which does not include zero. In conclusion, all of these statistics tell us to <em>reject</em> the null hypothesis, and that Burton and Spielberg have statistically different mean ratings.</p>
+<p>Glimpse the Data</p>
 <pre class="r"><code>movies &lt;- read_csv(here::here(&quot;data&quot;, &quot;movies.csv&quot;))
 glimpse(movies)</code></pre>
 <pre><code>## Rows: 2,961
@@ -39,6 +40,7 @@ glimpse(movies)</code></pre>
 ## $ votes               &lt;dbl&gt; 886204, 793059, 418214, 995415, 1676169, 534658, 9~
 ## $ reviews             &lt;dbl&gt; 3777, 2843, 1934, 2425, 5312, 3917, 1752, 1752, 35~
 ## $ rating              &lt;dbl&gt; 7.9, 7.7, 7.0, 8.1, 9.0, 6.5, 8.7, 7.5, 8.5, 7.2, ~</code></pre>
+<p>Create the additional summary statistics.</p>
 <pre class="r"><code>#Create necessary data
 burton_spielberg &lt;- movies %&gt;% 
   group_by(director) %&gt;% 
@@ -59,6 +61,7 @@ burton_spielberg</code></pre>
 ## 1 Steven Spielberg        7.57     0.695    23       2.07     0.145           0.301
 ## 2 Tim Burton              6.93     0.749    16       2.13     0.187           0.399
 ## # ... with 2 more variables: lower &lt;dbl&gt;, higher &lt;dbl&gt;</code></pre>
+<p>Create the graph.</p>
 <pre class="r"><code>#Recreate graph
 ggplot(burton_spielberg, aes(x=mean_rating, color=director)) +
   #add shaded region for where intervals overlap
@@ -84,7 +87,8 @@ ggplot(burton_spielberg, aes(x=mean_rating, color=director)) +
   #remove legend
   guides(color=FALSE, size=FALSE) +
   theme_minimal()</code></pre>
-<p><img src="/blogs/blog1.1_files/figure-html/unnamed-chunk-1-1.png" width="648" style="display: block; margin: auto;" /></p>
+<p><img src="/blogs/blog1.1_files/figure-html/unnamed-chunk-2-1.png" width="648" style="display: block; margin: auto;" /></p>
+<p>Run hypothesis tests.</p>
 <pre class="r"><code>#Create smaller data set 
 small_data &lt;- movies %&gt;% 
   group_by(director) %&gt;% 
@@ -127,4 +131,5 @@ t.test(rating ~ director, data=small_data)</code></pre>
 ## sample estimates:
 ## mean in group Steven Spielberg       mean in group Tim Burton 
 ##                           7.57                           6.93</code></pre>
+<p>```</p>
 </div>
