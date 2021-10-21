@@ -1,4 +1,19 @@
 ---
+categories:
+- ""
+- ""
+date: "2017-10-31T22:26:09-05:00"
+description: Using R to look at trends in climate change.
+draft: false
+#image: pic09.jpg
+keywords: ""
+slug: climateanalysis
+title: Climate Change Analysis in R
+---
+
+Over the last five weeks, Lindsey has been in a "Data Analytics for Finance" course. This course focused on statistical analysis and visual output utilizing the R programming language. In this specific assignment, Lindsey looked at historical weather data to uncover trends and anomalies. This included making graphs that looked at changes in temperature by month and creating a density plot to understand how the average temperature has changed over the past few decades.
+
+---
 title: "Climate Change Analysis"
 author: "Lindsey Zastawny"
 date: "`r Sys.Date()`"
@@ -13,10 +28,6 @@ output:
 slug: climateanalysis
 title: Climate Change Analysis in R
 ---
-
-Over the last five weeks, Lindsey has been in a "Data Analytics for Finance" course. This course focused on statistical analysis and visual output utilizing the R programming language. In this specific assignment, Lindsey looked at historical weather data to uncover trends and anomalies. This included making graphs that looked at changes in temperature by month and creating a density plot to understand how the average temperature has changed over the past few decades.
-
-
 
 ```{r, setup, include=FALSE}
 knitr::opts_chunk$set(
